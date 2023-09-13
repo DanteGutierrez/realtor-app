@@ -53,6 +53,12 @@
 	  <None Remove="Resources\Images\bed.png" />
 	  <None Remove="Resources\Images\filter.png" />
 	  <None Remove="Resources\Images\home.png" />
+	  <None Remove="Resources\Images\home1.jpg" />
+	  <None Remove="Resources\Images\home2.jpg" />
+	  <None Remove="Resources\Images\home3.jpg" />
+	  <None Remove="Resources\Images\home5.jpg" />
+	  <None Remove="Resources\Images\home6.jpg" />
+	  <None Remove="Resources\Images\home7.jpg" />
 	  <None Remove="Resources\Images\home_filled.png" />
 	  <None Remove="Resources\Images\messages.png" />
 	  <None Remove="Resources\Images\messages_filled.png" />
@@ -60,18 +66,17 @@
 	  <None Remove="Resources\Images\star_filled.png" />
 	  <None Remove="Resources\Images\user.png" />
 	  <None Remove="Resources\Images\user_filled.png" />
+	  <None Remove="Resources\Raw\listingdata.json" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="System.Text.Json" Version="7.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="NewFolder\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Compile Update="Pages\MainPage.xaml.cs">
+	  <Compile Update="Views\MainPage.xaml.cs">
 	    <DependentUpon>MainPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>

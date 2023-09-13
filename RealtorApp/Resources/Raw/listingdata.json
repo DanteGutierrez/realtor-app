@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 0,
+    "Address": {
+      "LineOne": "123 Place Ave.",
+      "LineTwo": "",
+      "City": "Los Angeles",
+      "State": "CA",
+      "AreaCode": "12345"
+    },
+    "Price": 500000.0,
+    "Image": "home1.jpg",
+    "Details": {
+      "Bed": 3,
+      "Bath": 3.5,
+      "Sqft": 7420
+    },
+    "CreationDate": "2023-09-13T13:58:00"
+  },
+  {
+    "Id": 1,
+    "Address": {
+      "LineOne": "321 Place Ave.",
+      "LineTwo": "",
+      "City": "Dallas",
+      "State": "TX",
+      "AreaCode": "54321"
+    },
+    "Price": 650000.0,
+    "Image": "home2.jpg",
+    "Details": {
+      "Bed": 4,
+      "Bath": 3.5,
+      "Sqft": 8901
+    },
+    "CreationDate": "2023-09-13T13:58:00"
+  },
+  {
+    "Id": 2,
+    "Address": {
+      "LineOne": "132 Place Ave.",
+      "LineTwo": "",
+      "City": "Los Angeles",
+      "State": "CA",
+      "AreaCode": "12345"
+    },
+    "Price": 700000.0,
+    "Image": "home3.jpg",
+    "Details": {
+      "Bed": 5,
+      "Bath": 4,
+      "Sqft": 10678
+    },
+    "CreationDate": "2023-09-13T13:58:00"
+  },
+  {
+    "Id": 4,
+    "Address": {
+      "LineOne": "231 Place Ave.",
+      "LineTwo": "",
+      "City": "Seattle",
+      "State": "WA",
+      "AreaCode": "11111"
+    },
+    "Price": 800000.0,
+    "Image": "home4.jpg",
+    "Details": {
+      "Bed": 5,
+      "Bath": 6,
+      "Sqft": 12000
+    },
+    "CreationDate": "2023-09-13T13:58:00"
+  }
+]
