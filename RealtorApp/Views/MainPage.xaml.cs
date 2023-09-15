@@ -1,12 +1,13 @@
-﻿namespace RealtorApp
+﻿using RealtorApp.ViewModels;
+
+namespace RealtorApp
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
-        public MainPage()
+        public MainPage(ListingsViewModel viewModel)
         {
             InitializeComponent();
+            BindingContext = viewModel;
         }
     }
 }

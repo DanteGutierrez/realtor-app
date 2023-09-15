@@ -56,6 +56,7 @@
 	  <None Remove="Resources\Images\home1.jpg" />
 	  <None Remove="Resources\Images\home2.jpg" />
 	  <None Remove="Resources\Images\home3.jpg" />
+	  <None Remove="Resources\Images\home4.jpg" />
 	  <None Remove="Resources\Images\home5.jpg" />
 	  <None Remove="Resources\Images\home6.jpg" />
 	  <None Remove="Resources\Images\home7.jpg" />
@@ -79,6 +80,15 @@
 	  <Compile Update="Views\MainPage.xaml.cs">
 	    <DependentUpon>MainPage.xaml</DependentUpon>
 	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Resources\Styles\Components.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\ListingDetails.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
