@@ -54,7 +54,7 @@
     "CreationDate": "2023-09-13T13:58:00"
   },
   {
-    "Id": 4,
+    "Id": 3,
     "Address": {
       "LineOne": "231 Place Ave.",
       "LineTwo": "",
@@ -68,6 +68,60 @@
       "Bed": 5,
       "Bath": 6,
       "Sqft": 12000
+    },
+    "CreationDate": "2023-09-13T13:58:00"
+  },
+  {
+    "Id": 4,
+    "Address": {
+      "LineOne": "111 Place Ave.",
+      "LineTwo": "",
+      "City": "Seattle",
+      "State": "WA",
+      "AreaCode": "11111"
+    },
+    "Price": 900000.0,
+    "Image": "home5.jpg",
+    "Details": {
+      "Bed": 4,
+      "Bath": 3,
+      "Sqft": 15000
+    },
+    "CreationDate": "2023-09-13T13:58:00"
+  },
+  {
+    "Id": 5,
+    "Address": {
+      "LineOne": "222 Place Ave.",
+      "LineTwo": "",
+      "City": "New York City",
+      "State": "NY",
+      "AreaCode": "11111"
+    },
+    "Price": 1000000.0,
+    "Image": "home6.jpg",
+    "Details": {
+      "Bed": 5,
+      "Bath": 5,
+      "Sqft": 25000
+    },
+    "CreationDate": "2023-09-13T13:58:00"
+  },
+  {
+    "Id": 6,
+    "Address": {
+      "LineOne": "333 Place Ave.",
+      "LineTwo": "",
+      "City": "Salt Lake City",
+      "State": "UT",
+      "AreaCode": "11111"
+    },
+    "Price": 1250000.0,
+    "Image": "home7.jpg",
+    "Details": {
+      "Bed": 7,
+      "Bath": 9,
+      "Sqft": 50000
     },
     "CreationDate": "2023-09-13T13:58:00"
   }

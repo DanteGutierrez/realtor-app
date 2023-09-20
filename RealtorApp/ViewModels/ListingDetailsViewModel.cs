@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using RealtorApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,14 @@ using System.Threading.Tasks;
 
 namespace RealtorApp.ViewModels
 {
-    partial class ListingDetailsViewModel : BaseViewModel
+    [QueryProperty("Listing", "Listing")]
+    public partial class ListingDetailsViewModel : BaseViewModel
     {
+        public ListingDetailsViewModel() 
+        { 
+        }
+
+        [ObservableProperty]
+        private Listing listing;
     }
 }

@@ -4,12 +4,39 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:RealtorApp"
-    Shell.FlyoutBehavior="Disabled">
-
-    <ShellContent
-        Shell.NavBarIsVisible="True"
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="Home" />
+    Shell.FlyoutBehavior="Disabled"
+    Shell.TabBarBackgroundColor="{StaticResource Primary}"
+    Shell.TabBarTitleColor="{StaticResource Black}"
+    Shell.TabBarUnselectedColor="{StaticResource Gray900}">
+    <TabBar>
+        <Tab Style="{StaticResource TabHome}"
+             Title="Home">
+            <ShellContent Shell.NavBarIsVisible="False"
+                          Shell.TabBarIsVisible="True"
+                          ContentTemplate="{DataTemplate local:MainPage}"
+                          Route="Home" />
+        </Tab>
+        <Tab Title="Filter"
+             Icon="filter.png">
+            <ShellContent Shell.NavBarIsVisible="False"
+                          Shell.TabBarIsVisible="True"
+                          ContentTemplate="{DataTemplate local:FilterPage}"
+                          Route="Filter" />   
+        </Tab>
+        <Tab Style="{StaticResource TabMessages}"
+             Title="Messages">
+            <ShellContent Shell.NavBarIsVisible="False"
+                          Shell.TabBarIsVisible="True"
+                          ContentTemplate="{DataTemplate local:MessagesPage}"
+                          Route="Messages" />
+        </Tab>
+        <Tab  Style="{StaticResource TabProfile}"
+              Title="Profile">
+            <ShellContent Shell.NavBarIsVisible="False"
+                          Shell.TabBarIsVisible="True"
+                          ContentTemplate="{DataTemplate local:ProfilePage}"
+                          Route="Profile" />
+        </Tab>
+    </TabBar>
 
 </Shell>

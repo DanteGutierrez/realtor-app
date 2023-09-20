@@ -14,4 +14,34 @@
         <Setter Property="FontSize" Value="15"/>
         <Setter Property="TextColor" Value="{StaticResource Black}"/>
     </Style>
+    <Style x:Key="TabHome" TargetType="Tab">
+        <Style.Triggers>
+            <Trigger TargetType="Tab" Property="IsChecked" Value="True">
+                <Setter Property="Icon" Value="home_filled.png"/>
+            </Trigger>
+            <Trigger TargetType="Tab" Property="IsChecked" Value="False">
+                <Setter Property="Icon" Value="home.png"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="TabMessages" TargetType="Tab">
+        <Style.Triggers>
+            <Trigger TargetType="Tab" Property="IsChecked" Value="True">
+                <Setter Property="Icon" Value="messages_filled.png"/>
+            </Trigger>
+            <Trigger TargetType="Tab" Property="IsChecked" Value="False">
+                <Setter Property="Icon" Value="messages.png"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="TabProfile" TargetType="Tab">
+        <Style.Triggers>
+            <Trigger TargetType="Tab" Property="IsChecked" Value="True">
+                <Setter Property="Icon" Value="user_filled.png"/>
+            </Trigger>
+            <Trigger TargetType="Tab" Property="IsChecked" Value="False">
+                <Setter Property="Icon" Value="user.png"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
 </ResourceDictionary>

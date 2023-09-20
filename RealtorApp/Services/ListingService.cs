@@ -17,7 +17,6 @@ namespace RealtorApp.Services
         
         public async Task<List<Listing>> GetListingsAsync()
         {
-            if (listings?.Count > 0) return listings;
 
             //string url = "";
 

@@ -13,7 +13,7 @@ namespace RealtorApp.ViewModels
 
         [ObservableProperty]
         [NotifyPropertyChangedFor(nameof(IsNotBusy))]
-        private bool isBusy;
+        private bool isBusy = false;
         //public bool IsBusy { 
         //    get => isBusy; 
         //    set 
@@ -21,20 +21,6 @@ namespace RealtorApp.ViewModels
         //        if (isBusy == value) return;
 
         //        isBusy = value;
-        //        OnPropertyChanged();
-        //    }
-        //}
-
-        [ObservableProperty]
-        public string title;
-        //public string Title
-        //{
-        //    get => title;
-        //    set
-        //    {
-        //        if (title.Equals(value)) return;
-
-        //        title = value;
         //        OnPropertyChanged();
         //    }
         //}
